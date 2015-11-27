@@ -9,3 +9,6 @@
 .nav.navbar-nav li a{
 	color: white;
 }
+
+.navbar.active { background:blue;
+}
