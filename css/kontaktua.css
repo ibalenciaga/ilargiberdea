@@ -4,6 +4,7 @@ body{
 
 .container{
 	margin-top: 2%;
+	width: 100%;
 }
 
 h1, a, label{
@@ -16,7 +17,11 @@ h1, a, label{
         padding: 10px;
     }
 
-    .bigicon {
-        font-size: 35px;
-        color: #36A0FF;
-    }
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.Flexible-container{
+    width:100%;
+}
