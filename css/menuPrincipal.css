@@ -10,5 +10,10 @@
 	color: white;
 }
 
-.navbar.active { background:blue;
+.nav.navbar-nav li{
+	background-color:blue;
+	color:blue;
 }
+
+navbar-nav>.open>a:focus 
+{ background-color: green}
