@@ -17,3 +17,9 @@
 
 navbar-nav>.open>a:focus 
 { background-color: green}
+
+/*imagen logo*/
+#brand-image{
+	max-height: 100%;
+      height: 100%;
+}
