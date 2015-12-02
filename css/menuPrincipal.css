@@ -11,15 +11,13 @@
 }
 
 .nav.navbar-nav li{
-	background-color:blue;
-	color:blue;
+	background-color:#00A005;
 }
 
-navbar-nav>.open>a:focus 
-{ background-color: green}
 
 /*imagen logo*/
 #brand-image{
 	max-height: 100%;
     height: 100%;
 }
+
