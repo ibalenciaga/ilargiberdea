@@ -7,82 +7,23 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: black;
 }
 
 .text-muted {
-    color: white;
+    color: black;
 }
 
-.text-primary {
-    color: #fed136;
-}
-
-p {
-    font-size: 14px;
-    line-height: 1.75;
-    color: white;
-}
-
-p.large {
-    font-size: 16px;
-    color: white;
-}
-
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-}
-
-a {
-    color: #fed136;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: #fec503;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: white;
+    color: #00A005;/*color de los titulos: verde*/
 }
 
 .img-centered {
-    margin: 0 auto;
+    margin: auto;
 }
 
-
-
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
-    color: white;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-    color: white;
-}
 /*distancias entre el contenedor y la pantalla*/
 @media(min-width:90px) {
     section {
@@ -90,10 +31,9 @@ section h3.section-subheading {
     }
 }
 
-
 .team-member {
-    margin-bottom: 50px;
     text-align: center;
+    margin-top:5%;
 }
 
 .team-member img {
@@ -115,53 +55,6 @@ aside.clients img {
     margin: 50px auto;
 }
 
-
-ul.social-buttons {
-    margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
-
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #fed136;
-}
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-    outline: 0;
-}
-
-
-
-::selection {
-    text-shadow: none;
-    background: #fed136;
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
-}
 
 body {
     webkit-tap-highlight-color: #fed136;
