@@ -54,7 +54,9 @@ h1,h2,h3,h4,h5,h6, p {
 aside.clients img {
     margin: 50px auto;
 }
-
+#parrafo{
+    text-align:justify;
+}
 
 body {
     webkit-tap-highlight-color: #fed136;
