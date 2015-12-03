@@ -10,14 +10,9 @@
 	color: white;
 }
 
-.nav.navbar-nav li{
-	background-color:#00A005;
-}
-
 
 /*imagen logo*/
 #brand-image{
 	max-height: 100%;
     height: 100%;
 }
-
