@@ -1,6 +1,11 @@
 body{
     text-align:center;
 }
+#gabonak1{
+    width: 100%;
+    height:auto;
+    margin:auto;
+}
 
 #gabonak2{
     width: 70%;
