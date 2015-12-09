@@ -1,11 +1,16 @@
 /*body{
 	background-color: black;
 }*/
+body{
+	background-color: black;
+}
 
-html, body { height: 100%;}
+.item{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
 
-#foto {
-    width:100%;
-    height:auto;
-    margin: auto;
+img{
+	margin:auto;
 }
