@@ -1,6 +1,17 @@
 body{
     text-align:center;
 }
+#asteSantu1{
+    width: 70%;
+    height:auto;
+    margin:auto;
+}
+
+#asteSantu2{
+    width: 100%;
+    height:auto;
+    margin:auto;
+}
 #gabonak1{
     width: 100%;
     height:auto;
@@ -12,7 +23,6 @@ body{
     height:auto;
     margin:auto;
 }
-
 p{
     color: #fff;
 }
